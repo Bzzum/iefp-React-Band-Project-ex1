@@ -4,6 +4,9 @@ body{
 h2{
   text-align: center;
 }
+h4 {
+  margin: 0;
+}
 .list_content{
   display: -webkit-box;
   width: 80%;
@@ -16,4 +19,15 @@ h2{
   background-color: #fff;
   width: 43%;
   margin: 0 20px;
+}
+.row_album{
+  padding: 10px;
+  border-bottom: 1px solid #cda574;
+  position: relative;
+}
+.row_song li{
+  margin: 10px 0;
+}
+.row_album.selected{
+  background-color: #f6f6f6;
 }
